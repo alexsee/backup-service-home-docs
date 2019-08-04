@@ -41,7 +41,8 @@
     "disableGitFeatures": false,
 	"globalMetadata": {
 	  "_appTitle": "Backup Service Home 3 Dokumentation",
-	  "_appFooter": "Alexander Seeliger Software"
+    "_appFooter": "Alexander Seeliger Software",
+    "_appLogoPath": "images/alexosoft_weiß.png"
 	}
   }
 }
