@@ -8,9 +8,9 @@ Sie können entweder auf der Webseite nachschauen, ob eine neue Version vorhande
 
 Auf der Webseite erhalten Sie dieses Handbuch (möglicherweise in neuerer Version), welches auf häufig gestellte Fragen Antworten liefert. Ebenso ist ein Support-Forum vorhanden, wo Sie Ihre Fragen, Probleme und Kritik loswerden können.
 
-Link zur Webseite: [http://www.alexosoft.de/](http://www.alexosoft.de/)
+Link zur Webseite: [https://www.brightbits.de/](https://www.brightbits.de/)
 
-Link zum Forum: [http://www.alexosoft.de/forum/](http://www.alexosoft.de/forum/)
+Link zum Forum: [https://forum.brightbits.de/](https://forum.brightbits.de/)
 
 ## Was ist BSHService.exe?
 
