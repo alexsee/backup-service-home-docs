@@ -10,8 +10,9 @@ Damit Backup Service Home 3 den Überblick behält, erzeugt es eine Datenbank, d
 
 Ihre Dateien können auch ohne die Software wiederhergestellt werden (allerdings mit mehr Aufwand). Alle Dateien werden (außer bei der Verschlüsselung) in einem für Sie lesbarem Format gespeichert. Sie benötigen keinerlei weitere Software, um auf Ihre Sicherung zuzugreifen. Die Schwierigkeit besteht darin, dass in jedem Sicherungsordner nur jeweils die Dateien enthalten sind, die geändert oder erstellt worden sind. Sie müssten also im Extremfall alle Sicherungen durchsuchen, um zu finden, was Sie suchen. Es empfiehlt sich daher die Wiederherstellung unbedingt mit der Software zu erledigen.
 
-> [!NOTE]
-> Wenn Sie Datensicherungen aus Backup Service Home 3 entfernen, bewirkt das nicht automatisch, dass der entsprechende Ordner auf dem Sicherungsmedium ebenfalls gelöscht wird. Das hat den Hintergrund, dass Backup Service Home 3 Verweise aus dieser Datensicherung behält, sodass andere Datensicherungen wiederhergestellt werden können. Durch Löschen dieser Ordner zerstören Sie u.U. Ihre gesamte Datensicherung. Daher Löschen Sie Sicherungen nur aus Backup Service Home 3 heraus.
+!!! note
+
+    Wenn Sie Datensicherungen aus Backup Service Home 3 entfernen, bewirkt das nicht automatisch, dass der entsprechende Ordner auf dem Sicherungsmedium ebenfalls gelöscht wird. Das hat den Hintergrund, dass Backup Service Home 3 Verweise aus dieser Datensicherung behält, sodass andere Datensicherungen wiederhergestellt werden können. Durch Löschen dieser Ordner zerstören Sie u.U. Ihre gesamte Datensicherung. Daher Löschen Sie Sicherungen nur aus Backup Service Home 3 heraus.
 
 ## Vollautomatische Datensicherungen
 

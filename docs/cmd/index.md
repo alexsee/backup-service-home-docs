@@ -1,14 +1,16 @@
 # Kommandozeilenparameter
 
-> [!NOTE]
-> Die Verwendung der Kommandozeilenparameter ist für den normalen Einsatz von Backup Service Home 3 nicht notwendig.
+!!! note
 
-> [!NOTE]
-> Es kann jeweils nur eine Instanz pro Benutzer gestartet werden.
+    Die Verwendung der Kommandozeilenparameter ist für den normalen Einsatz von Backup Service Home 3 nicht notwendig.
+
+!!! note
+
+    Es kann jeweils nur eine Instanz pro Benutzer gestartet werden.
 
 ## /autodeletion
 
-Führt vor einer mit dem Kommandozeilenparameter /startbackup initiierten Sicherung eine Löschung der Sicherungen wie beim automatischen Datensicherungsmodus durch.
+Führt vor einer mit dem Kommandozeilenparameter `/startbackup` initiierten Sicherung eine Löschung der Sicherungen wie beim automatischen Datensicherungsmodus durch.
 
 ## /browser
 
@@ -40,15 +42,15 @@ Startet Backup Service Home 3 im Debugmodus. Im Debugmodus können Probleme mit 
 
 ## /resumeonerror
 
-Ignoriert Fehler bei einer mit dem Kommandozeilenparameter /startbackup initiierten Sicherung.
+Ignoriert Fehler bei einer mit dem Kommandozeilenparameter `/startbackup` initiierten Sicherung.
 
 ## /shutdownapp
 
-Beendet Backup Service Home 3 nach einer mit dem Kommandozeilenparameter /startbackup initiierten Sicherung.
+Beendet Backup Service Home 3 nach einer mit dem Kommandozeilenparameter `/startbackup` initiierten Sicherung.
 
 ## /shutdownpc
 
-Fährt den Computer nach einer mit dem Kommandozeilenparameter /startbackup initiierten Sicherung herunter.
+Fährt den Computer nach einer mit dem Kommandozeilenparameter `/startbackup` initiierten Sicherung herunter.
 
 ## /startbackup
 

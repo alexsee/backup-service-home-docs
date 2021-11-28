@@ -36,8 +36,9 @@ Nach der Installation ist Backup Service Home 3 zunächst in einem deaktivierten
 
 Während die Datensicherung durchgeführt wird, wird der Status der Datensicherung im Fenster angezeigt. Sie können das Fenster schließen, ohne die Datensicherung abzubrechen. Wann immer eine Sicherung durchgeführt wird, färbt sich das Backup Service Home 3-Symbol in der Taskleiste blau. Mittels Doppelklick erscheint das Statusfenster wieder und zeigt Ihnen den aktuellen Zustand an.
 
-> [!NOTE]
-> Bei der ersten Datensicherung läuft Backup Service Home 3 mit normaler Priorität. Das heißt, dass Backup Service Home 3 mit hoher Leistung die Sicherung durchführt. Im vollautomatischen Modus, den Sie eingestellt haben, sichert Backup Service Home 3 ihre Daten mit niedriger Priorität, sodass Sie ungestört weiterarbeiten können.
+!!! note
+
+    Bei der ersten Datensicherung läuft Backup Service Home 3 mit normaler Priorität. Das heißt, dass Backup Service Home 3 mit hoher Leistung die Sicherung durchführt. Im vollautomatischen Modus, den Sie eingestellt haben, sichert Backup Service Home 3 ihre Daten mit niedriger Priorität, sodass Sie ungestört weiterarbeiten können.
 
 ## Wie geht es weiter?
 

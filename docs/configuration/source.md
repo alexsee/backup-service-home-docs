@@ -16,5 +16,6 @@ Im daraufhin angezeigtem Fenster können Sie
 
 ausschließen.
 
-> [!TIP]
-> Zum Thema *RegEx-Filter* können Sie im Internet vielfältige Anleitungen, sowie weitere Informationen erhalten. Einen guten Artikel zur Kurzinformation finden Sie auf Wikipedia.
+!!! tip
+
+    Zum Thema *RegEx-Filter* können Sie im Internet vielfältige Anleitungen, sowie weitere Informationen erhalten. Einen guten Artikel zur Kurzinformation finden Sie auf Wikipedia.

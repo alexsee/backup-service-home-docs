@@ -8,8 +8,9 @@ Wenn Sie sich entscheiden die Datensicherung zu komprimieren, dann wird jede ein
 
 Bei der Komprimierung können Sie entscheiden, wie stark Backup Service Home 3 die Datensicherung komprimieren möchten. Es stehen 9 Stufen zur Verfügung (1 - niedrige Kompression, 9 - hohe Kompression).
 
-> [!WARNING]
-> Das Komprimieren erfordert mehr Rechenleistung und führt dazu, dass eine Datensicherung länger dauert.
+!!! note
+
+    Das Komprimieren erfordert mehr Rechenleistung und führt dazu, dass eine Datensicherung länger dauert.
 
 ## Datensicherung verschlüsseln
 
@@ -21,5 +22,6 @@ Wenn Sie sich entscheiden die Verschlüsselung wieder zu deaktivieren, dann ents
 
 Damit Sie nicht ständig Ihr Kennwort eingeben müssen, speichert Backup Service Home 3 das Kennwort für die aktuelle Sitzung. Alternativ können Sie das Kennwort speichern lassen. Dieses wird nicht auf dem Sicherungsmedium, sondern in Ihrem Benutzerprofil auf Ihrem Computer abgelegt.
 
-> [!IMPORTANT]
-> Sollten Sie Ihr Kennwort vergessen haben, ist eine Wiederherstellung der Daten nicht mehr möglich.
+!!! note
+
+    Sollten Sie Ihr Kennwort vergessen haben, ist eine Wiederherstellung der Daten nicht mehr möglich.

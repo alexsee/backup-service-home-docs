@@ -1,0 +1,44 @@
+site_name: Backup Service Home 3
+theme:
+  name: material
+  language: de
+  logo: assets/logo.png
+  palette:
+    primary: light green
+    accent: lime
+  custom_dir: overrides
+copyright: Copyright &copy; 2021 Alexander Seeliger
+
+extra:
+  analytics:
+    provider: custom
+    property: foobar # 
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - 'Willkommen': 'index.md'
+  - 'Lizenzvereinbarung': 'license.md'
+  - 'Erste Schritte': 
+    - 'Erste Einrichtung': 'first-steps/index.md'
+    - 'Funktionsweise': 'first-steps/function.md'
+    - 'Wiederherstellung (worst case)': 'first-steps/restore.md'
+    - 'Wiederherstellung (Neuinstallation Betriebssystem)': 'first-steps/restore-2.md'
+    - 'Häufig gestellte Fragen': 'first-steps/faq.md'
+  - 'Backupbrowser':
+    - 'Übersicht': 'backupbrowser/index.md'
+    - 'Schnellvorschau': 'backupbrowser/preview.md'
+    - 'Wiederherstellung von Dateien': 'backupbrowser/restore.md'
+    - 'Weitere Optionen': 'backupbrowser/more.md'
+  - 'Konfiguration':
+    - 'Übersicht': 'configuration/index.md'
+    - 'Quellverzeichnisse': 'configuration/source.md'
+    - 'Sicherungsmedium': 'configuration/target.md'
+    - 'Sicherungsmodus': 'configuration/mode.md'
+    - 'Sicherungsoptionen': 'configuration/backup-options.md'
+    - 'Weitere Optionen': 'configuration/more.md'
+  - 'Kommandozeile': 'cmd/index.md'
