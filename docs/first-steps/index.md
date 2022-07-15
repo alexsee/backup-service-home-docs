@@ -2,18 +2,28 @@
 
 ## Nach der Installation
 
-Backup Service Home 3 arbeitet grundsätzlich im Hintergrund, sodass Sie nichts von der Datensicherung merken. Damit Sie allerdings auf Backup Service Home 3 zugreifen können, sowie feststellen können, ob Backup Service Home 3 läuft, wurde ein Symbol in der Taskleiste hinzugefügt. Sobald Sie Backup Service Home 3 installiert haben, erscheint unten rechts in der Taskleiste (neben der Uhrzeit) ein neues Symbol (vgl. Abbildung) auf. Dieses Symbol ist der zentrale Zugriff auf Backup Service Home 3.
+Backup Service Home 3 arbeitet grundsätzlich im Hintergrund, sodass Sie nichts von der Datensicherung merken.
+Damit Sie allerdings auf Backup Service Home 3 zugreifen können, sowie feststellen können, ob Backup Service Home 3 läuft, wurde ein Symbol in der Taskleiste hinzugefügt.
+Sobald Sie Backup Service Home 3 installiert haben, erscheint unten rechts in der Taskleiste (neben der Uhrzeit) ein neues Symbol (vgl. Abbildung) auf.
+Dieses Symbol ist der zentrale Zugriff auf Backup Service Home 3.
 
-Die Software besitzt 2 Prozesse, die beide immer laufen müssen, damit Backup Service Home 3 die Datensicherungen erfolgreich durchführen kann. Es sind folgende Dateien:
+![Backup Service Home 3 Taskbar Icon](../assets/bsh-taskbar-icon.png)
 
-    Alexosoft.BackupService.MainApp.exe
+Backup Service Home 3 startet automatisch 2 Prozesse, die beide immer laufen müssen, damit Backup Service Home 3 die Datensicherungen erfolgreich durchführen kann.
+Es sind folgende Dateien:
+
+    BSH.MainApp.exe
     BSHService.exe
 
-Über deren Funktion wird in diesem Artikel nicht eingegangen. Es dient lediglich zu Ihrer Information.
+Über deren Funktion wird in diesem Artikel nicht eingegangen.
+Es dient lediglich zu Ihrer Information.
+
 
 ## Die erste Einrichtung
 
-Nach der Installation ist Backup Service Home 3 zunächst in einem deaktivierten Modus. Sie müssen zunächst einmal Backup Service Home 3 einrichten, damit es Datensicherungen durchführen kann. Im nachfolgenden werden Sie Schritt für Schritt die erste Einrichtung durchführen:
+Nach der Installation ist Backup Service Home 3 zunächst in einem deaktivierten Modus.
+Sie müssen zunächst einmal Backup Service Home 3 einrichten, damit es Datensicherungen durchführen kann.
+Im nachfolgenden werden Sie Schritt für Schritt die erste Einrichtung durchführen:
 
 1.   Doppelklicken Sie auf das Backup Service Home 3-Symbol in der Taskleiste neben der Uhrzeit.
     Der Backup Service Home 3 Einrichtungsassistent wird Ihnen angezeigt. Sie haben nun 2 Möglichkeiten, wie Sie fortfahren können. Da dieser Artikel die "Erste Einrichtung" erläutert, klicken Sie nun auf Konfigurieren.

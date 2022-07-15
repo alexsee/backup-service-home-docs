@@ -7,7 +7,7 @@ theme:
     primary: light green
     accent: lime
   custom_dir: overrides
-copyright: Copyright &copy; 2021 Alexander Seeliger
+copyright: Copyright &copy; 2022 Alexander Seeliger
 
 extra:
   analytics:
