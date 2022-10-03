@@ -8,38 +8,66 @@
 
     Es kann jeweils nur eine Instanz pro Benutzer gestartet werden.
 
-## /autodeletion
+!!! warning
 
-Führt vor einer mit dem Kommandozeilenparameter `/startbackup` initiierten Sicherung eine Löschung der Sicherungen wie beim automatischen Datensicherungsmodus durch.
+    In Version 3.8.3 gab es eine Neustrukturierung der Kommandozeilenparameter. Die vorher verwendeten Kommandos sind nicht mehr verfügbar.
 
-## /browser
 
-Zeigt den Backupbrowser an.
+## Generelle Optionen
 
-## /config
+### `--delayedstart`
 
-Zeigt das Konfigurationsfenster an.
+Startet Backup Service Home 3 mit 10s Verzögerung. Alle Aufgaben und weitere Aktivitäten stehen erst nach der Verzögerungszeit zur Verfügung.
 
-## /databasefile
+### `--databasefile`
 
 Legt die Datenbankdatei fest, die für die gestartete Instanz von Backup Service Home 3 verwendet werden soll. Standardmäßig wird die Datenbank des aktuell angemeldeten Benutzers bzw. des Benutzers, der die Instanz startet geladen.
 
-## /delayedstart
+### `--deleteprotocol`
 
-Startet Backup Service Home 3 verzögert.
+(Veraltet) Löscht das Backup Service Home Protokoll aus der Windows Ereignisanzeige.
 
-## /resumeonerror
 
-Ignoriert Fehler bei einer mit dem Kommandozeilenparameter `/startbackup` initiierten Sicherung.
+## Backupbrowser anzeigen
 
-## /shutdownapp
+### `browser`
 
-Beendet Backup Service Home 3 nach einer mit dem Kommandozeilenparameter `/startbackup` initiierten Sicherung.
+Startet nach dem Start von Backup Service Home direkt den Backupbrowser.
 
-## /shutdownpc
 
-Fährt den Computer nach einer mit dem Kommandozeilenparameter `/startbackup` initiierten Sicherung herunter.
+## Konfiguration anzeigen
 
-## /startbackup
+### `config`
 
-Startet eine manuelle Datensicherung für den aktuell angemeldeten Benutzer.
+Zeigt nach dem Start von Backup Service Home direkt das Konfigurationsfenster an.
+
+
+## Sicherung starten
+
+Mit dem Kommando `startbackup` lässt sich eine Sicherung starten.
+
+### `--title`
+
+Legt den Titel der anzulegenden Sicherung fest.
+
+### `--description`
+
+Legt die Beschreibung der anzulegenden Sicherung fest.
+
+## `--shutdownapp`
+
+Beendet Backup Service Home 3 nach einer mit dem Kommandozeilenparameter `startbackup` initiierten Sicherung.
+
+## `--shutdownpc`
+
+Fährt den Computer nach einer mit dem Kommandozeilenparameter `startbackup` initiierten Sicherung herunter.
+
+## `--autodeletion`
+
+Führt vor einer mit dem Kommandozeilenparameter `startbackup` initiierten Sicherung eine Löschung der Sicherungen wie beim automatischen Datensicherungsmodus durch.
+
+## Beispiel
+
+```
+BSH.Main.exe startbackup --title "Manuelle Sicherung" --shutdownapp
+```
