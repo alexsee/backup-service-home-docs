@@ -37,7 +37,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: alexsee/backup-service-home-docs
+          images: ghcr.io/${{ github.repository }}
 
       - name: Docker push
         uses: docker/build-push-action@v3
