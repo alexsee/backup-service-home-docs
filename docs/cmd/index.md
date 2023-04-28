@@ -62,7 +62,7 @@ Beendet Backup Service Home 3 nach einer mit dem Kommandozeilenparameter `startb
 
 Fährt den Computer nach einer mit dem Kommandozeilenparameter `startbackup` initiierten Sicherung herunter.
 
-## `--autodeletion`
+## `--autodelete`
 
 Führt vor einer mit dem Kommandozeilenparameter `startbackup` initiierten Sicherung eine Löschung der Sicherungen wie beim automatischen Datensicherungsmodus durch.
 
